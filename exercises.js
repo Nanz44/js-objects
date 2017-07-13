@@ -18,6 +18,16 @@ A literal object.
  "My dog `name` is `age` year old likes to `speak`."
  */ 
 
+var dog = {
+  name:"Jay",
+  age: 40,
+  vegetarian: "true",
+  color: ["purple", "black"],
+  speak: "woof"
+}
+//console.log ("My dog " + dog.name + " is " + dog.age + " years old likes to " + dog.speak);
+
+
 
 /*
 An empty object
@@ -31,6 +41,14 @@ An empty object
             
   Console.log the object.
 */
+
+var kicks = {};
+kicks.brand = "nike",
+kicks.color = "red",
+kicks.size = 11,
+kicks.buy = "Hell Yeah!"
+
+console.log (kicks);
 
 
 /* 
